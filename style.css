@@ -55,6 +55,8 @@ header h1 {
     width: calc(96% / 3);
     background-color: rgb(15, 14, 23);
     color: white;
+    /* RULE TO CENTER MEMBERDATA */
+    /* position: relative; */
 }
 
 .card:nth-child(2) {
@@ -80,6 +82,11 @@ header h1 {
     float: right;
     padding: 0.5rem;
     overflow: auto;
+    /* RULE TO CENTER MEMBERDATA */
+    /* position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translateY(-50%); */
 }
 
 
