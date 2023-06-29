@@ -84,7 +84,6 @@ header h1 {
     float: right;
     padding: 0.5rem;
     overflow: auto;
-    display: block;
     /* RULE TO CENTER MEMBERDATA */
     /* position: absolute;
     top: 50%;
