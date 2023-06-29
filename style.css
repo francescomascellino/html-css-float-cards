@@ -23,27 +23,47 @@ body {
     width: 80%;
 }
 
+.m4 {
+    margin: 4px 0;
+}
+
 /* #endregion GLOBAL RULES */
+
+.row {
+    margin-top: 2rem;
+}
 
 .card {
     float: left;
-    width: calc(100% / 3);
+    width: calc(96% / 3);
     background-color: rgb(15, 14, 23);
     color: white;
 }
 
-.card img {
-    float: left;
+.imageContainer {
     width: calc(100% / 4);
-    margin-right: 0.5rem;
+    float: left;
+}
 
+.imageContainer img {
+    width: 100%;
+}
+
+.memberData {
+    width: calc(75%);
+    height: 100%;
+    float: right;
+    padding: 0.2rem;
+    overflow: auto;
+}
+
+.card:nth-child(2) {
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 a {
     color: rgb(0, 186, 243);
     text-decoration: none;
-}
-
-.m4 {
-    margin: 4px 0;
+    display: inline-block;
 }
