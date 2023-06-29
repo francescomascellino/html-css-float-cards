@@ -49,12 +49,13 @@ header h1 {
 /* #region ROWS AND CARDS */
 
 .row {
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .card {
     float: left;
-    width: calc(96% / 3);
+    width: calc(95% / 3);
+    max-height: 91px;
     background-color: rgb(15, 14, 23);
     color: white;
     box-shadow: 0 0 3px 3px lightgray;
@@ -63,8 +64,8 @@ header h1 {
 }
 
 .card:nth-child(2) {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 1.8rem;
+    margin-right: 1.8rem;
 }
 
 /* #endregion ROW AND CARDS */
@@ -72,12 +73,12 @@ header h1 {
 /* #region CARDS DATA */
 
 .imageContainer {
-    width: calc(100% / 4);
     float: left;
+    overflow: hidden;
 }
 
 .imageContainer img {
-    width: 100%;
+    width: 91px;
     display: block;
 }
 
