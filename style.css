@@ -55,7 +55,7 @@ header h1 {
     width: calc(96% / 3);
     background-color: rgb(15, 14, 23);
     color: white;
-    box-shadow: 0 0 3px 2px lightgray;
+    box-shadow: 0 0 3px 3px lightgray;
     /* RULE TO CENTER MEMBERDATA */
     /* position: relative; */
 }
@@ -76,6 +76,7 @@ header h1 {
 
 .imageContainer img {
     width: 100%;
+    display: block;
 }
 
 .memberData {
@@ -83,6 +84,7 @@ header h1 {
     float: right;
     padding: 0.5rem;
     overflow: auto;
+    display: block;
     /* RULE TO CENTER MEMBERDATA */
     /* position: absolute;
     top: 50%;
