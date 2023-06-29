@@ -55,6 +55,7 @@ header h1 {
     width: calc(96% / 3);
     background-color: rgb(15, 14, 23);
     color: white;
+    box-shadow: 0 0 3px 2px lightgray;
     /* RULE TO CENTER MEMBERDATA */
     /* position: relative; */
 }
