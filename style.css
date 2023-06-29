@@ -79,6 +79,7 @@ header h1 {
     width: calc(75%);
     float: right;
     padding: 0.5rem;
+    overflow: auto;
 }
 
 
